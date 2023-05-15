@@ -56,7 +56,7 @@ body {
   background-color: var(--bg-color-head);
 }
 
-/***** Header *****/
+/********** Header **********/
 .container-header {
   display: flex;
   width: 1158px;
@@ -82,10 +82,7 @@ body {
 
 .menu-nav {
   display: flex;
-}
-
-.page-header .menu-item:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .link-logo {
@@ -116,6 +113,7 @@ body {
 
 .menu-address {
   display: flex;
+  gap: 40px;
 }
 
 .address-header {
@@ -127,9 +125,9 @@ body {
   color: var(--color-text-head);
 }
 
-/***** /Header *****/
+/********** /Header **********/
 
-/* ***** Hero 1 ***** */
+/* ********** Hero 1 ********** */
 
 .hero {
   padding-top: 188px;
@@ -178,9 +176,9 @@ body {
 .button-order:focus {
   background-color: var(--color-text-hover-focus);
 }
-/* ***** /Hero  ***** */
+/* ********** /Hero  ********** */
 
-/* ***** Skills 2 ***** */
+/* ********** Skills 2 ********** */
 
 .skills {
   padding-top: 120px;
@@ -194,7 +192,7 @@ body {
   padding: 0 15px;
 }
 
-/* SVG - Skills */
+/****** SVG - Skills ******/
 .icon-container-skills {
   display: flex;
   justify-content: center;
@@ -204,14 +202,14 @@ body {
   background: var(--color-white-light);
   border-radius: 4px;
 }
-/* /SVG - Skills */
+/****** /SVG - Skills ******/
 
 .menu-skills {
   display: flex;
   column-gap: 24px;
 }
 
-.menu-skills .menu-item {
+.list-skills {
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -223,9 +221,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text-sec);
 }
-/* ***** /Skills ***** */
+/* ********** /Skills ********** */
 
-/* ***** Our Work 3 ***** */
+/* ********** Our Work 3 ********** */
 
 .our-work {
   padding-bottom: 120px;
@@ -242,7 +240,7 @@ body {
   column-gap: 24px;
 }
 
-.menu-our-work .menu-item {
+.list-our-work {
   width: calc((100% - 2 * 24px) / 3);
 }
 
@@ -256,9 +254,9 @@ body {
   text-transform: capitalize;
   color: var(--color-text-sec);
 }
-/* ***** /Our Work ***** */
+/* ********** /Our Work ********** */
 
-/* ***** Our Team 4 ***** */
+/* ********** Our Team 4 ********** */
 
 .our-team {
   background-color: var(--color-white-light);
@@ -277,7 +275,7 @@ body {
   column-gap: 24px;
 }
 
-.menu-our-team .menu-item {
+.list-our-team {
   background-color: var(--bg-color-head);
   width: calc((100% - 2 * 24px) / 3);
   border-radius: 0px 0px 4px 4px;
@@ -299,7 +297,7 @@ body {
   margin-bottom: 8px;
 }
 
-/* SVG - Our Team  */
+/****** SVG - Our Team  ******/
 .menu-social-svg {
   display: flex;
   justify-content: center;
@@ -333,11 +331,11 @@ body {
 .social-list-icon {
   fill: var(--color-white-light);
 }
-/* /SVG */
+/****** /SVG ******/
 
-/* ***** /Our Team ***** */
+/* ********** /Our Team ********** */
 
-/* ***** Customers ***** */
+/* ********** Customers ********** */
 
 .customers {
   padding: 120px 0;
@@ -349,7 +347,7 @@ body {
   padding: 0 15px;
 }
 
-/* SVG - Custumers */
+/****** SVG - Custumers ******/
 .menu-cust-svg {
   display: flex;
   gap: 24px;
@@ -373,18 +371,18 @@ body {
 
 .link-logo-cust:hover,
 .link-logo-cust:focus {
-  border-color: #404bbf;
+  border-color: var(--color-text-hover-focus);
   color: var(--color-text-hover-focus);
 }
 
 .logo-cust-svg {
   fill: currentColor;
 }
-/* /SVG - Custumers */
+/****** /SVG - Custumers ******/
 
-/* ***** /Customers ***** */
+/* ********** /Customers ********** */
 
-/* ***** Footer ***** */
+/* ********** Footer ********** */
 .footer-page {
   padding: 100px;
   background-color: var(--color-text-sec);
@@ -424,7 +422,7 @@ body {
   color: var(--bg-color-head);
 }
 
-/* SVG - Footer */
+/****** SVG - Footer ******/
 .container-foot-svg .menu-social-svg {
   gap: 16px;
 }
@@ -433,9 +431,9 @@ body {
 .container-foot-svg .social-list-link:focus {
   background-color: var(--color-svg-social-hov);
 }
-/* /SVG - Footer */
+/****** /SVG - Footer ******/
 
-/* ***** Hero-Portfolio ***** */
+/* ********** Hero-Portfolio ********** */
 
 .hero-portfolio {
   padding-top: 96px;
@@ -513,4 +511,4 @@ body {
   color: var(--color-text-head);
 }
 
-/* ***** /Hero-Portfolio ***** */
+/* ********** /Hero-Portfolio ********** */
