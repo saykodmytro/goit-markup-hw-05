@@ -373,7 +373,7 @@ body {
   border-radius: 4px;
   color: var(--color-svg-logo-cust);
   transition: color var(--trans-time-cubic),
-    border-radius var(--trans-time-cubic);
+    border-color var(--trans-time-cubic);
 }
 
 .link-logo-cust:hover,
