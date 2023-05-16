@@ -172,8 +172,7 @@ body {
   color: var(--bg-color-head);
   background-color: var(--color-logo);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: color var(--trans-time-cubic),
-    background-color var(--trans-time-cubic), box-shadow var(--trans-time-cubic);
+  transition: background-color var(--trans-time-cubic);
 }
 
 .button-order:hover,
