@@ -578,6 +578,7 @@ body {
 }
 
 .modal-close-btn {
+  padding: 0;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -588,13 +589,21 @@ body {
   height: 24px;
   border-radius: 50%;
 
-  background-color: #e7e9fc;
+  background-color: var(--color-border);
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: background-color var(--trans-time-cubic),
+    border var(--trans-time-cubic);
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   border-color: var(--color-text-hover-focus);
+  border: none;
+}
+
+.svg-modal-close-btn {
+  transition: fill var(--trans-time-cubic);
 }
 
 .modal-close-btn:hover .svg-modal-close-btn,
