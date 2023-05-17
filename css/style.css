@@ -562,6 +562,8 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
+  transition: opaviti var(--trans-time-cubic),
+    visibility var(--trans-time-cubic);
 }
 
 .modal {
@@ -610,4 +612,11 @@ body {
 .modal-close-btn:focus .svg-modal-close-btn {
   fill: var(--bg-color-head);
 }
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 /*********** /Modal-Window ***********/
