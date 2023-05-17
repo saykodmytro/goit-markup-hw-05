@@ -608,6 +608,6 @@ body {
 
 .modal-close-btn:hover .svg-modal-close-btn,
 .modal-close-btn:focus .svg-modal-close-btn {
-  fill: var(--color-text-hover-focus);
+  fill: var(--bg-color-head);
 }
 /*********** /Modal-Window ***********/
