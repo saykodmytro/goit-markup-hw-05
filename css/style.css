@@ -390,8 +390,9 @@ body {
 
   border: 1px solid var(--color-svg-logo-cust);
   color: var(--color-svg-logo-cust);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color var(--trans-time-cubic);
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-logo-cust:hover,
