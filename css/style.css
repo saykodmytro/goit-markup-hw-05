@@ -82,6 +82,7 @@ body {
 }
 
 .menu-nav {
+  position: relative;
   display: flex;
   gap: 40px;
 }
@@ -104,6 +105,23 @@ body {
 .menu-nav .menu-link {
   font-weight: 500;
   color: var(--color-text-sec);
+}
+
+.menu-nav .underlining {
+  position: relative;
+  color: var(--color-text-hover-focus);
+}
+
+.underlining::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: "";
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--color-text-hover-focus);
+  border-radius: 2px;
 }
 
 .page-header .menu-link {
